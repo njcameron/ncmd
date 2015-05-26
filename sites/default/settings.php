@@ -685,3 +685,6 @@ $databases['default']['default'] = array (
 $settings['install_profile'] = 'minimal';
 $config_directories['active'] = 'sites/default/files/config_K2BzBurI6HR5sVG6PmjI61z2LsmyDDc_gRcsQ0wv9OxBzltbOjjBWRZNGYKsvUUUA_RCmRxZ0Q/active';
 $config_directories['staging'] = 'sites/default/files/config_K2BzBurI6HR5sVG6PmjI61z2LsmyDDc_gRcsQ0wv9OxBzltbOjjBWRZNGYKsvUUUA_RCmRxZ0Q/staging';
+$settings['trusted_host_patterns'] = array(
+   '^ferko\.flato\.local$',
+ );

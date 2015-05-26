@@ -1,0 +1,13 @@
+uuid: 69b90b7c-655e-405d-8606-064d47386284
+langcode: en
+status: true
+dependencies: {  }
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: null
+permissions:
+  - 'use text format plain_text'
+  - 'access content'
+  - 'use text format rich_text'
+  - 'restful get entity:node'

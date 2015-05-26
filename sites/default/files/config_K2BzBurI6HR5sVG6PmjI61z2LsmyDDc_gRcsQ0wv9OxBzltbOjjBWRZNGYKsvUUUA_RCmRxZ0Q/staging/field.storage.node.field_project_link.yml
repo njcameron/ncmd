@@ -1,0 +1,19 @@
+uuid: e75e0770-0738-4ee1-9f08-8ad6e4273e37
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_project_link
+field_name: field_project_link
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false

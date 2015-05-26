@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Contains ncd8_config_rest.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ncd8_config_rest_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ncd8_config_rest module.
+    case 'help.page.ncd8_config_rest':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides a RESTful interface for config.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function ncd8_config_rest_theme() {
+  $theme = [];
+
+  return $theme;
+}

@@ -1,0 +1,7 @@
+hello.settings:
+  path: '/admin/structure/ncd8_config_manager/settings'
+  defaults:
+    _form: '\Drupal\ncd8_config_manager\ncd8ConfigForm'
+    _title: 'Config Manager'
+  requirements:
+    _permission: 'administer site configuration'

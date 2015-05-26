@@ -1,0 +1,90 @@
+uuid: feea5cad-eb2f-4e1d-ac00-fa1f20f4522b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.work.field_client
+    - field.field.node.work.field_filename
+    - field.field.node.work.field_project_link
+    - field.field.node.work.field_project_name
+    - field.field.node.work.field_project_sub_title
+    - field.field.node.work.field_project_title
+    - field.field.node.work.field_thumbnail
+    - field.field.node.work.field_work_col_1
+    - field.field.node.work.field_work_col_2
+    - node.type.work
+  module:
+    - image
+    - text
+    - user
+id: node.work.default
+targetEntityType: node
+bundle: work
+mode: default
+content:
+  field_client:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_filename:
+    weight: 108
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_project_link:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_project_name:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_project_sub_title:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_project_title:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_thumbnail:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_work_col_1:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_work_col_2:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 100
+hidden:
+  body: true

@@ -1,0 +1,9 @@
+services:
+  restui.manager:
+    class: Drupal\restui\RestUIManager
+    arguments: ['@entity.manager']
+
+  restui.authentication_collector:
+    class: Drupal\restui\RestUIAuthenticationCollector
+    tags:
+    - { name: service_collector, tag: authentication_provider, call: addProvider }

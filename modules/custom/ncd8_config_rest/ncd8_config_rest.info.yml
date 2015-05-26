@@ -1,0 +1,6 @@
+name: ncd8_config_rest
+type: module
+description: Provides a RESTful interface for config.
+core: 8.x
+package: NCD8
+

@@ -1,0 +1,19 @@
+uuid: 864f262f-31df-46e5-a25a-90efef7b3f17
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_project_title
+field_name: field_project_title
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false

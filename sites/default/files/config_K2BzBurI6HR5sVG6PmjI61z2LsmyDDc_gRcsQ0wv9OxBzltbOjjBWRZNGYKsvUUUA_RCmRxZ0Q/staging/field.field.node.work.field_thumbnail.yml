@@ -1,0 +1,38 @@
+uuid: ec941bd6-9cb8-466e-bd03-3e9000be3dac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_thumbnail
+    - node.type.work
+  module:
+    - image
+id: node.work.field_thumbnail
+field_name: field_thumbnail
+entity_type: node
+bundle: work
+label: Thumbnail
+description: 'To use on frontpage'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: work
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    fid: 0
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: default
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,18 @@
+uuid: 30473ea2-5437-47db-b628-40d253170847
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_work_col_1
+field_name: field_work_col_1
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false

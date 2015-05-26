@@ -1,0 +1,14 @@
+name: 'Configuration inspector'
+type: module
+description: 'Provides a configuration data and structure inspector tool.'
+package: Development
+configure: admin/reports/config-inspector
+# core: 8.x
+dependencies:
+  - config
+
+# Information added by Drupal.org packaging script on 2014-10-20
+version: '8.x-1.0-alpha2'
+core: '8.x'
+project: 'config_inspector'
+datestamp: 1413827030

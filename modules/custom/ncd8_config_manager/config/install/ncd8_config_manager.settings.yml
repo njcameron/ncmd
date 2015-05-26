@@ -1,0 +1,23 @@
+strings:
+  landing:
+    land_title: "Neil Cameron"
+    catch_line: "DRUPAL | PRODUCT | TEAMS"
+  about:
+    about_title: "About me"
+    about_blurb: "Hi! I'm Neil, a web tech guy based in London. I'm passionate about building teams and building products.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum sociis natoque penatibus et magnis dis parturient montes."
+    about_col_1: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. et magnis dis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet."
+    about_col_2: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. et magnis dis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet."
+  work:
+    work_title: "Recent Projects"
+    work_blurb: "With nine years of digital experience, I've worked on all kinds of projects. Here's a sample of the work I've done."
+  blog:
+    blog_title: "The Blog"
+    blog_blurb: "Thoughts on technology, business and the web."
+  newsletter:
+    newsletter_title: "How about we keep in touch?"
+    newsletter_blurb: "Sign up to my email newsletter to hear about what I'm doing, thinking and planning."
+  contact:
+    contact_title: "Say hello"
+    contact_blurb: "I'd love to hear from you, the best way to contact me is on email: neil@neilcameron.me, you can also find me out and about on the interwebs here:"
+  footer:
+    footer_text: "© 2015 Neil Cameron. Built on headless Drupal 8 and Angular JS to be buzzword compliant."

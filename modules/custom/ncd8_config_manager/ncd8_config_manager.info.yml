@@ -1,0 +1,9 @@
+name: NCD8 Configuration Manager
+type: module
+description: 'Manages strings and config for angular app'
+package: NCD8
+dependencies:
+# core: 8.x
+
+# Information added by Drupal.org packaging script on 2015-02-17
+core: '8.x'

@@ -1,0 +1,12 @@
+uuid: 756972cb-f56c-4aa4-9c27-39042c963e72
+langcode: en
+status: true
+dependencies: {  }
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: null
+permissions:
+  - 'use text format plain_text'
+  - 'access content'
+  - 'restful get entity:node'
