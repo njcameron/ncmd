@@ -1,0 +1,12 @@
+uuid: 90561ef2-b408-4178-8e40-649f19d5258a
+name: localhost
+mail: neil@neilcameron.me
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+mail_notification: ''

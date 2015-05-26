@@ -1,0 +1,33 @@
+uuid: 03336161-84b5-4a6e-8700-a60b0cb34222
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.work.field_client
+    - field.field.node.work.field_project_name
+    - field.field.node.work.field_project_sub_title
+    - field.field.node.work.field_project_title
+    - field.field.node.work.field_thumbnail
+    - field.field.node.work.field_work_col_1
+    - node.type.work
+  module:
+    - user
+id: node.work.teaser
+targetEntityType: node
+bundle: work
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  body: true
+  field_client: true
+  field_filename: true
+  field_project_link: true
+  field_project_name: true
+  field_project_sub_title: true
+  field_project_title: true
+  field_thumbnail: true
+  field_work_col_1: true
+  field_work_col_2: true
