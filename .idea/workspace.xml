@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a44cf671-3c8f-4f4d-b168-9f0cae4c6bc1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/config_K2BzBurI6HR5sVG6PmjI61z2LsmyDDc_gRcsQ0wv9OxBzltbOjjBWRZNGYKsvUUUA_RCmRxZ0Q/active/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/config_K2BzBurI6HR5sVG6PmjI61z2LsmyDDc_gRcsQ0wv9OxBzltbOjjBWRZNGYKsvUUUA_RCmRxZ0Q/staging/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/service_container/service_container_prod/5564939be4693341ad884473ca2e7f8c63b5d8a17c155510918e03b6bf856c7a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#03#dd#cc178a9f4ccbb464359d5edd60daa0936de4f4850a59f6af45976ef76fe0/082a41ccf1c3dd0cdb678071df13c3e01d2982392a9e3a5203bc6ba047b089c0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#11#c4#14ea37e82e69e41bb9c4bd680f4652c5cda0350ce3eefe4548b5bd45897c/008bb7ab6bb9192c7523b558990da1b6dbeafbab88dfe9edbd867d7f2204635c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#2c#b3#4cde49ad9d635b1104a307b850b6874933a081efa295d5cb193797c5c04d/bd17a9a7add08629160c43cb1582b6702cea84e4d0164afa03b562e0e03acd12.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#58#7a#34ab3ccabe4858ec256805902d29e2643a3c766400196cd29310300c956e/067f78a3b2243231914293f893b3491dc49a9cc2209bc4796d3a732a90007cf5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#6d#6b#533828dc8bc9168627f2637048562fef57ae3ec55bab1800fe4362943195/1e4ca23cd24ee4080974756191952b1cf497095619cc82b368838a5199ebb0d1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#73#e4#f3c5dcb2c131db43e27781cb355f3b84fb4696620366e47864293190d4a3/dd000eb9a19ca336c21c6542cc6f0cf2c76716a99284aab422733537016f9360.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#8e#f4#753e8c1eef58f99091a6b5a19631b0eec4d50a86d8848adbb8b4f9e90ff4/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#8e#f4#753e8c1eef58f99091a6b5a19631b0eec4d50a86d8848adbb8b4f9e90ff4/00c06719fddabbf3b247cef198e5d4a5bce74f7378a9cca0a6600deca9c8156a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#8f#78#85e4faef4dc2bcb17849bf3f78e99f481bd46dcf79d017174dac9e17654f/fbcd8f3e9ba1082c98e9886a9695d30879106bb4952e88c3722e454ad6ed3ce5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#bb#04#1a9b57eabdc6d777aade40f794ae2d75e45fb8e8f5a564bfb72db695752f/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#bb#04#1a9b57eabdc6d777aade40f794ae2d75e45fb8e8f5a564bfb72db695752f/13688ba642c0ec39878d6e447dbb361b28866e6059e6089ad81aa90997a6622c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#db#26#35f131d6ef53b241307695cb206538e23077a6f9c3dbd866604ca3ada7fa/35160cd574b7a41965d291062568297a33c436d1289d42fb252accb72bf268f2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#ff#d6#a4e1630954bac4b29d2feb2d93c4d6e07437a862cba885566c49d5df1a9c/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/1#ff#d6#a4e1630954bac4b29d2feb2d93c4d6e07437a862cba885566c49d5df1a9c/883222985d07b573ed1612a5391ec401687acfbadd8ce4c96066fbf9df70dcb1.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/default/settings.php" afterPath="$PROJECT_DIR$/sites/default/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/custom/ncd8_config_manager/src/ncd8ConfigForm.php" afterPath="$PROJECT_DIR$/modules/custom/ncd8_config_manager/src/ncd8ConfigForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ferko.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,10 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FerkoConfigFeed.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/custom/ncd8_config_rest/src/Plugin/rest/resource/FerkoConfigFeed.php">
+      <file leaf-file-name="ncd8ConfigForm.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/custom/ncd8_config_manager/src/ncd8ConfigForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="18" selection-start="768" selection-end="768" vertical-scroll-proportion="0.43373495" vertical-offset="0" max-vertical-offset="1638">
+            <state line="63" column="27" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.33333334" vertical-offset="882" max-vertical-offset="1476">
+              <folding>
+                <element signature="e#97#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ncd8_config_manager.settings.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/ncd8_config_manager/config/install/ncd8_config_manager.settings.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -69,6 +64,8 @@
         <option value="$PROJECT_DIR$/modules/custom/ncd8_config_rest/src/Plugin/rest/resource/ferkoAllConfig.php" />
         <option value="$PROJECT_DIR$/sites/default/files/config_K2BzBurI6HR5sVG6PmjI61z2LsmyDDc_gRcsQ0wv9OxBzltbOjjBWRZNGYKsvUUUA_RCmRxZ0Q/staging/rest.settings.yml" />
         <option value="$PROJECT_DIR$/modules/custom/ncd8_config_rest/src/Plugin/rest/resource/FerkoConfigFeed.php" />
+        <option value="$PROJECT_DIR$/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/modules/custom/ncd8_config_manager/src/ncd8ConfigForm.php" />
       </list>
     </option>
   </component>
@@ -192,62 +189,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config_K2BzBurI6HR5sVG6PmjI61z2LsmyDDc_gRcsQ0wv9OxBzltbOjjBWRZNGYKsvUUUA_RCmRxZ0Q" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="staging" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ferko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ferko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config_K2BzBurI6HR5sVG6PmjI61z2LsmyDDc_gRcsQ0wv9OxBzltbOjjBWRZNGYKsvUUUA_RCmRxZ0Q" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ferko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ferko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -329,18 +270,8 @@
               <option name="myItemId" value="custom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ferko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ferko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="ncd8_config_manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,33 +285,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ferko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ferko" />
+              <option name="myItemId" value="custom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="ncd8_config_manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Drupal" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,49 +311,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="custom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Drupal" />
+              <option name="myItemId" value="ncd8_config_manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ferko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ferko" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Drupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plugin" />
+              <option name="myItemId" value="install" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,27 +341,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="contrib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ferko" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ferko" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Drupal" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Component" />
+              <option name="myItemId" value="contrib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Discovery" />
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,7 +451,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.614792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4807396" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -582,7 +479,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -621,37 +518,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/files/config_K2BzBurI6HR5sVG6PmjI61z2LsmyDDc_gRcsQ0wv9OxBzltbOjjBWRZNGYKsvUUUA_RCmRxZ0Q/staging/views.view.content_recent.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="455" column="16" selection-start="12109" selection-end="12109" vertical-scroll-proportion="0.57591623" vertical-offset="7970" max-vertical-offset="8388">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/ncd8_config_manager/src/ncd8ConfigForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/ncd8_config_manager/config/install/ncd8_config_manager.settings.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Component/Plugin/Discovery/CachedDiscoveryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/files/config_K2BzBurI6HR5sVG6PmjI61z2LsmyDDc_gRcsQ0wv9OxBzltbOjjBWRZNGYKsvUUUA_RCmRxZ0Q/staging/rest.settings.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="608" selection-end="608" vertical-scroll-proportion="1.367647" vertical-offset="0" max-vertical-offset="756">
           <folding />
         </state>
       </provider>
@@ -677,9 +546,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/files/config_K2BzBurI6HR5sVG6PmjI61z2LsmyDDc_gRcsQ0wv9OxBzltbOjjBWRZNGYKsvUUUA_RCmRxZ0Q/staging/user.role.anonymous.yml">
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="248" selection-end="393" vertical-scroll-proportion="0.3478261" vertical-offset="0" max-vertical-offset="621">
+        <state line="677" column="22" selection-start="27017" selection-end="27017" vertical-scroll-proportion="0.41135973" vertical-offset="10975" max-vertical-offset="11556">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/development.services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
           <folding />
         </state>
       </provider>
@@ -688,6 +564,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="18" selection-start="768" selection-end="768" vertical-scroll-proportion="0.43373495" vertical-offset="0" max-vertical-offset="1638">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/ncd8_config_manager/ncd8_config_manager.routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="9" selection-start="25" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Form/ConfigFormBaseTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="21" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.10992908" vertical-offset="743" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Config/ImmutableConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="18" selection-start="781" selection-end="781" vertical-scroll-proportion="1.5390334" vertical-offset="108" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Config/ConfigBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="18" selection-start="5600" selection-end="5600" vertical-scroll-proportion="0.029739777" vertical-offset="3358" max-vertical-offset="5184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Config/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="3" selection-start="5146" selection-end="5146" vertical-scroll-proportion="-1.739777" vertical-offset="3708" max-vertical-offset="5508">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Form/FormStateInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1036" column="18" selection-start="30933" selection-end="30933" vertical-scroll-proportion="0.49814126" vertical-offset="18442" max-vertical-offset="19422">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/ncd8_config_manager/config/install/ncd8_config_manager.settings.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/ncd8_config_manager/src/ncd8ConfigForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="27" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.33333334" vertical-offset="882" max-vertical-offset="1476">
+          <folding>
+            <element signature="e#97#133#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

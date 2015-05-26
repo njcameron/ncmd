@@ -32,18 +32,27 @@ class ncd8ConfigForm extends ConfigFormBase {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    $config = $this->config('ncd8_config_manager.settings');
-    $strings = $config->get('strings');
-    $form['name'] = array(
-      '#type' => 'textfield',
-      '#title' => $this->t('Name'),
-      '#default_value' => $config->get('name'),
-    );
-    $form['catch_line'] = array(
-      '#type' => 'textfield',
-      '#title' => $this->t('catch_line'),
-      '#default_value' => $config->get('catch_line'),
-    );
+    $ncd8_config = $this->config('ncd8_config_manager.settings');
+    $strings = $ncd8_config->get('strings');
+
+    foreach ($strings as $string_set_ID => $string_set) {
+      $form[$string_set_ID] = array(
+        '#type' => 'fieldgroup',
+        '#title' => $string_set_ID,
+      );
+      foreach ($string_set as $id => $string) {
+        $field_type = "textfield";
+        if (strlen($string) > 20) {
+          $field_type = "textarea";
+        }
+
+        $form[$id] = array(
+          '#type' => $field_type,
+          '#title' => $id,
+          '#default_value' => $string,
+        );
+      }
+    }
 
     return parent::buildForm($form, $form_state);
   }
@@ -52,10 +61,19 @@ class ncd8ConfigForm extends ConfigFormBase {
    * {@inheritdoc}
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-    $this->config('ncd8_config_manager.settings')
-      ->set('name', $form_state->getValue('name'))
-      ->set('catch_line', $form_state->getValue('catch_line'))
-      ->save();
+    $var_group = "strings";
+
+    $strings = $this->config('ncd8_config_manager.settings')->get($var_group);
+
+    foreach ($strings as $string_set_ID => $string_set) {
+      foreach ($string_set as $id => $string) {
+        $key = $var_group . '.' . $string_set_ID . '.' . $id;
+        $value = $form_state->getValue($id);
+        $this->config('ncd8_config_manager.settings')->set($key, $value);
+      }
+    }
+
+    $this->config('ncd8_config_manager.settings')->save();
 
     parent::submitForm($form, $form_state);
   }
