@@ -1,8 +1,0 @@
-uuid: 9789188a-b8e8-4df0-9800-a1e514d33546
-langcode: en
-status: true
-dependencies: {  }
-id: main
-label: 'Main navigation'
-description: 'Use this for linking to the main site sections.'
-locked: true
