@@ -27,10 +27,3 @@ resources:
         - json
       supported_auth:
         - basic_auth
-  default_rest_resource:
-    GET:
-      supported_formats:
-        - hal_json
-        - json
-      supported_auth:
-        - basic_auth
