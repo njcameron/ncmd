@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.blog_post.body
+    - field.field.node.blog_post.field_category
     - field.field.node.blog_post.field_filename
     - field.field.node.blog_post.field_picture
     - field.field.node.blog_post.field_standfirst
@@ -24,6 +25,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     label: hidden
+  field_category:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
   field_filename:
     type: string
     weight: 106
@@ -35,7 +43,7 @@ content:
     type: image
     weight: 104
     settings:
-      image_style: blog_list
+      image_style: blog_thumbnail
       image_link: ''
     third_party_settings: {  }
     label: above
@@ -53,5 +61,7 @@ content:
     label: above
   links:
     weight: 100
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   field_picture_file: true

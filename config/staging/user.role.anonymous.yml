@@ -10,3 +10,4 @@ permissions:
   - 'use text format plain_text'
   - 'access content'
   - 'restful get entity:node'
+  - 'restful get ferko_config_feed'

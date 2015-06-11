@@ -12,6 +12,13 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <h4> <h5> <h6>'
+      allowed_html: '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <h4> <h5> <h6> <p> <div>'
       filter_html_help: true
       filter_html_nofollow: false
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: false
+    weight: 0
+    settings:
+      filter_url_length: 72

@@ -1,20 +1,18 @@
-uuid: 2e4144d8-25e1-4859-8100-ff8883e2774a
+uuid: 2fe51ea7-decb-4b24-8d00-dbf485eb2a1d
 langcode: en
 status: true
 dependencies:
-  config:
-    - node.type.blog_post
   module:
-    - node
     - rest
+    - taxonomy
     - user
-id: blog_post_feed
-label: 'Blog post feed'
+id: term_feed
+label: 'Term feed'
 module: views
 description: ''
 tag: ''
-base_table: node_field_data
-base_field: nid
+base_table: taxonomy_term_field_data
+base_field: tid
 core: 8.x
 display:
   default:
@@ -79,12 +77,12 @@ display:
           hide_empty: false
           default_field_elements: true
       fields:
-        title:
-          id: title
-          table: node_field_data
-          field: title
-          entity_type: node
-          entity_field: title
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          entity_type: taxonomy_term
+          entity_field: name
           label: ''
           alter:
             alter_text: false
@@ -97,9 +95,10 @@ display:
             html: false
           hide_empty: false
           empty_zero: false
+          type: string
           settings:
             link_to_entity: true
-          plugin_id: field
+          plugin_id: term_name
           relationship: none
           group_type: group
           admin_label: ''
@@ -115,7 +114,6 @@ display:
           empty: ''
           hide_alter_empty: true
           click_sort_column: value
-          type: string
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -126,56 +124,22 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-      filters:
-        status:
-          value: true
-          table: node_field_data
-          field: status
-          plugin_id: boolean
-          entity_type: node
-          entity_field: status
-          id: status
-          expose:
-            operator: ''
-          group: 1
-        type:
-          id: type
-          table: node_field_data
-          field: type
-          value:
-            blog_post: blog_post
-          entity_type: node
-          entity_field: type
-          plugin_id: bundle
-      sorts:
-        created:
-          id: created
-          table: node_field_data
-          field: created
-          order: DESC
-          entity_type: node
-          entity_field: created
-          plugin_id: date
-          relationship: none
-          group_type: group
-          admin_label: ''
-          exposed: false
-          expose:
-            label: ''
-          granularity: second
+          convert_spaces: false
+      filters: {  }
+      sorts: {  }
       header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments:
-        nid:
-          id: nid
-          table: node
-          field: nid
+        tid:
+          id: tid
+          table: taxonomy_term_field_data
+          field: tid
           relationship: none
           group_type: group
           admin_label: ''
-          default_action: 'not found'
+          default_action: empty
           exception:
             value: all
             title_enable: false
@@ -202,16 +166,15 @@ display:
           validate_options: {  }
           break_phrase: false
           not: false
-          entity_type: node
-          entity_field: nid
-          plugin_id: numeric
+          entity_type: taxonomy_term
+          entity_field: tid
+          plugin_id: taxonomy
       display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - 'user.node_grants:view'
       cacheable: false
   rest_export_1:
     display_plugin: rest_export
@@ -220,7 +183,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: api/v1/content/blog/post
+      path: api/v1/content/category
       pager:
         type: some
         options:
@@ -240,5 +203,4 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - 'user.node_grants:view'
       cacheable: false

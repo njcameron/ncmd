@@ -41,16 +41,33 @@ class ncd8ConfigForm extends ConfigFormBase {
         '#title' => $string_set_ID,
       );
       foreach ($string_set as $id => $string) {
-        $field_type = "textfield";
-        if (strlen($string) > 20) {
-          $field_type = "textarea";
-        }
+        // #dirtyhack warning. @todo figure out how to set rich text / normal string
+        // in code.
 
+        // This is the default form setting.
         $form[$id] = array(
-          '#type' => $field_type,
+          '#type' => 'textfield',
           '#title' => $id,
           '#default_value' => $string,
         );
+
+        // For longer strings use a text area.
+        if (strlen($string) > 20) {
+          $form[$id] = array(
+            '#type' => 'textarea',
+            '#title' => $id,
+            '#default_value' => $string,
+          );
+        }
+
+        // For rich text use a WYSIWIG.
+        if(!empty($string["value"])) {
+          $form[$id] = array(
+            '#type' => 'text_format',
+            '#default_value' => $string["value"],
+            '#title' => $id,
+          );
+        }
       }
     }
 
