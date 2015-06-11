@@ -1,0 +1,14 @@
+uuid: 8c101d4d-613a-4eff-9a07-7be491eb9e5c
+langcode: en
+status: true
+dependencies: {  }
+name: blog_thumbnail
+label: 'Blog thumbnail'
+effects:
+  53b577fc-aa4a-4754-9d00-f72e4368737f:
+    uuid: 53b577fc-aa4a-4754-9d00-f72e4368737f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 420
+      height: 260

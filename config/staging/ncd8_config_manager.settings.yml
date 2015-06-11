@@ -1,4 +1,114 @@
-hello_thing: XXX
-things: 'Neil j Cameron'
-name: 'Neil '
-catch_line: dddd
+strings:
+  landing:
+    land_title: 'Neil Cameron'
+    catch_line: 'DRUPAL | PRODUCT | TEAMS'
+  about:
+    about_title: 'About me'
+    about_blurb: 'I''m Neil, a drupal / tech / business guy based in London, working with organisations large and small to deliver brilliant products.'
+    about_col_1:
+      value: "<p>Summary: I'm a consultant that works with organisations to build products, mostly with Drupal. I previously co-founded and was director of technology at Cameron &amp; Wilding a leading UK drupal agency.</p>\r\n\r\n<p>About: I work across the full spectrum of building tech products from customer engagement, defining features and user stories, though to system architecture, development, overseeing testing and final deployment. I really enjoy the human aspect too;&nbsp;hiring, mentoring and&nbsp;performance management. What really gives me a kick is building a high performing team that cares about quality and shipping a product that delights customers.</p>\r\n\r\n<p>Previously: In 2010 I&nbsp;co-founded and built up&nbsp;<a href=\"www.cameronandwilding.com\">Cameron &amp; Wilding</a> to become a twelve&nbsp;person software development company. In early 2015 I handed things over to my business partner and set out to find new challenges. Before C&amp;W&nbsp;I worked as a freelance developer, co-founded a <a href=\"http://killerstartups.com/social-networking/huitalk-com-a-new-way-to-learn-language\" target=\"_blank\">social network</a> for language learners and worked as a consultant for Accenture. My perpetual curiosity is reflected in my academic background: BA in Thai Language and Religious Studies, MA in Economics&nbsp;of Latin America. I speak Thai and Spanish and have spent chunks of time living in Thailand, Madrid, Mexico City, Buenos Aires and of course London.</p>\r\n"
+      format: rich_text
+    about_col_2:
+      value: "<p>Work with me: I'm currently taking on consulting work. In particular I'm looking for opportunities where I can add significant value&nbsp;by building a key product, building out a team or helping with the adoption of Drupal. I'm equally comfortable with custom&nbsp;development and leading a team&nbsp;through an agile project. To get in touch ping me an <a href=\"mailto:neil@neilcameron.me\" target=\"_blank\">email</a> or&nbsp;connect on <a href=\"https://uk.linkedin.com/in/neiljcameron\" target=\"_blank\">LinkedIn</a>. My CV is available for download here. Although I'm based in London, I'm open to working world-wide particularly in Singapore.</p>\r\n"
+      format: rich_text
+  work:
+    work_title: 'Recent work'
+    work_blurb: 'I''ve worked on all kinds of projects over my nine years in tech. Here''s a sample of the recent work I''ve done.'
+  blog:
+    blog_title: 'The blog'
+    blog_blurb: 'Thoughts on tech, business and everything in between.'
+  newsletter:
+    newsletter_title: 'How about we keep in touch?'
+    newsletter_blurb: 'Sign up to my email newsletter to hear about what I''m doing, thinking and planning.'
+  contact:
+    contact_title: 'Say hello'
+    contact_blurb: 'I''d love to hear from you, the best way to contact me is on email: neil@neilcameron.me, you can also find me across the interwebs here:'
+  footer:
+    footer_text: '© 2015 Neil Cameron. Built with Drupal 8 and Angular JS.'
+name: null
+catch_line: 'DRUPAL | PRODUCT | TEAMSX'
+land_title: 'Neil CameronC'
+about_title: 'About me'
+about_blurb: 'Hi! I''m Neil, a web tech guy based in London. I''m passionate about building teams and building products.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum sociis natoque penatibus et magnis dis parturient montes.'
+about_col_1: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. et magnis dis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.'
+about_col_2: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. et magnis dis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.'
+work_title: 'Recent Projects'
+work_blurb: 'With nine years of digital experience, I''ve worked on all kinds of projects. Here''s a sample of the work I''ve done.'
+blog_title: 'The Blog'
+blog_blurb: 'Thoughts on technology, business and the web.'
+newsletter_title: 'How about we keep in touch?'
+newsletter_blurb: 'Sign up to my email newsletter to hear about what I''m doing, thinking and planning.'
+contact_title: 'Say hello'
+contact_blurb: 'I''d love to hear from you, the best way to contact me is on email: neil@neilcameron.me, you can also find me out and about on the interwebs here:'
+footer_text: '© 2015 Neil Cameron. Built on headless Drupal 8 and Angular JS to be buzzword compliant.'
+submit: 'Save configuration'
+form_build_id: form-qUMSjsBs-m53Hnqvn9kT9R6BGJO5-5v3-JEugOAcHZc
+form_token: x4z62iQnyXJnyLZYbIi56WVzjFW_XHsB8HuU9chcmjg
+form_id: ncd8_config_manager_settings
+op: 'Save configuration'
+landing:
+  land_title: 'Neil Cameron'
+  catch_line: 'DRUPAL | PRODUCT | TEAMSXX'
+about:
+  about_title: 'About me'
+  about_blurb: 'Hi! I''m Neil, a web tech guy based in London. I''m passionate about building teams and building products.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum sociis natoque penatibus et magnis dis parturient montes.'
+  about_col_1: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. et magnis dis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.'
+  about_col_2: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. et magnis dis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.'
+work:
+  work_title: 'Recent Projects'
+  work_blurb: 'With nine years of digital experience, I''ve worked on all kinds of projects. Here''s a sample of the work I''ve done.'
+blog:
+  blog_title: 'The Blog'
+  blog_blurb: 'Thoughts on technology, business and the web.'
+newsletter:
+  newsletter_title: 'How about we keep in touch?'
+  newsletter_blurb: 'Sign up to my email newsletter to hear about what I''m doing, thinking and planning.'
+contact:
+  contact_title: 'Say hello'
+  contact_blurb: 'I''d love to hear from you, the best way to contact me is on email: neil@neilcameron.me, you can also find me out and about on the interwebs here:'
+footer:
+  footer_text: 'X© 2015 Neil Cameron. Built on headless Drupal 8 and Angular JS to be buzzword compliant.'
+stringlanding:
+  land_title: 'Neil Cameron'
+  catch_line: 'DRUPAL | PRODUCT | TEAMSxxx'
+stringabout:
+  about_title: 'About me'
+  about_blurb: 'Hi! I''m Neil, a web tech guy based in London. I''m passionate about building teams and building products.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum sociis natoque penatibus et magnis dis parturient montes.'
+  about_col_1: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. et magnis dis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.'
+  about_col_2: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. et magnis dis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.'
+stringwork:
+  work_title: 'Recent Projects'
+  work_blurb: 'With nine years of digital experience, I''ve worked on all kinds of projects. Here''s a sample of the work I''ve done.'
+stringblog:
+  blog_title: 'The Blog'
+  blog_blurb: 'Thoughts on technology, business and the web.'
+stringnewsletter:
+  newsletter_title: 'How about we keep in touch?'
+  newsletter_blurb: 'Sign up to my email newsletter to hear about what I''m doing, thinking and planning.'
+stringcontact:
+  contact_title: 'Say hello'
+  contact_blurb: 'I''d love to hear from you, the best way to contact me is on email: neil@neilcameron.me, you can also find me out and about on the interwebs here:'
+stringfooter:
+  footer_text: '© 2015 Neil Cameron. Built on headless Drupal 8 and Angular JS to be buzzword compliant.'
+stringslanding:
+  land_title: 'Neil Cameron'
+  catch_line: 'DRUPAL | PRODUCT | TEAMSddd'
+stringsabout:
+  about_title: 'About me'
+  about_blurb: 'Hi! I''m Neil, a web tech guy based in London. I''m passionate about building teams and building products.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum sociis natoque penatibus et magnis dis parturient montes.'
+  about_col_1: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. et magnis dis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.'
+  about_col_2: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. et magnis dis, nascetur ridiculus mus. Donec quam felis, ultricies nec, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.'
+stringswork:
+  work_title: 'Recent Projects'
+  work_blurb: 'With nine years of digital experience, I''ve worked on all kinds of projects. Here''s a sample of the work I''ve done.'
+stringsblog:
+  blog_title: 'The Blog'
+  blog_blurb: 'Thoughts on technology, business and the web.'
+stringsnewsletter:
+  newsletter_title: 'How about we keep in touch?'
+  newsletter_blurb: 'Sign up to my email newsletter to hear about what I''m doing, thinking and planning.'
+stringscontact:
+  contact_title: 'Say hello'
+  contact_blurb: 'I''d love to hear from you, the best way to contact me is on email: neil@neilcameron.me, you can also find me out and about on the interwebs here:'
+stringsfooter:
+  footer_text: '© 2015 Neil Cameron. Built on headless Drupal 8 and Angular JS to be buzzword compliant.'

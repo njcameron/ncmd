@@ -1,19 +1,17 @@
-uuid: b534bdec-3c82-4aef-9c07-7e01798f092c
+uuid: 0b07cd55-0918-44ee-9000-0a20499241cf
 langcode: en
 status: true
 dependencies:
-  config:
-    - node.type.work
   module:
-    - node
+    - file
     - rest
     - user
-id: work_feed
-label: 'Work feed'
+id: image_test
+label: 'image test'
 module: views
 description: ''
 tag: ''
-base_table: node_field_data
+base_table: file_managed
 base_field: nid
 core: 8.x
 display:
@@ -79,12 +77,12 @@ display:
           hide_empty: false
           default_field_elements: true
       fields:
-        title:
-          id: title
-          table: node_field_data
-          field: title
-          entity_type: node
-          entity_field: title
+        filename:
+          id: filename
+          table: file_managed
+          field: filename
+          entity_type: file
+          entity_field: filename
           label: ''
           alter:
             alter_text: false
@@ -97,9 +95,8 @@ display:
             html: false
           hide_empty: false
           empty_zero: false
-          settings:
-            link_to_entity: true
           plugin_id: field
+          type: file_link
           relationship: none
           group_type: group
           admin_label: ''
@@ -115,7 +112,7 @@ display:
           empty: ''
           hide_alter_empty: true
           click_sort_column: value
-          type: string
+          settings: {  }
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -126,54 +123,17 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-      filters:
-        status:
-          value: true
-          table: node_field_data
-          field: status
-          plugin_id: boolean
-          entity_type: node
-          entity_field: status
-          id: status
-          expose:
-            operator: ''
-          group: 1
-        type:
-          id: type
-          table: node_field_data
-          field: type
-          value:
-            work: work
-          entity_type: node
-          entity_field: type
-          plugin_id: bundle
-      sorts:
-        created:
-          id: created
-          table: node_field_data
-          field: created
-          order: DESC
-          entity_type: node
-          entity_field: created
-          plugin_id: date
-          relationship: none
-          group_type: group
-          admin_label: ''
-          exposed: false
-          expose:
-            label: ''
-          granularity: second
+      filters: {  }
+      sorts: {  }
       header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
-      display_extenders: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - 'user.node_grants:view'
       cacheable: false
   rest_export_1:
     display_plugin: rest_export
@@ -182,7 +142,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: api/v1/content/work
+      path: tttest
       pager:
         type: some
         options:
@@ -201,5 +161,4 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - 'user.node_grants:view'
       cacheable: false
