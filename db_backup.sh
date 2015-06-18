@@ -28,7 +28,7 @@ PASS=yes
 #mysqldump --opt --protocol=TCP --user=${USER} --password=${PASS} --host=${DBSERVER} ${DATABASE} > ${FILE}
 
 # use this command for a database server on localhost. add other options if need be.
-/usr/local/mysql/bin/mysqldump --opt --user=${USER} --password=${PASS} ${DATABASE} > ${FILE}
+/usr/local/bin/mysqldump --opt --user=${USER} --password=${PASS} ${DATABASE} > ${FILE}
 
 # (4) gzip the mysql database dump file
 /usr/bin/gzip $FILE
