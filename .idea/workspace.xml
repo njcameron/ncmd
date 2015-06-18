@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a44cf671-3c8f-4f4d-b168-9f0cae4c6bc1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_backup.sh" afterPath="$PROJECT_DIR$/db_backup.sh" />
-    </list>
+    <list default="true" id="a44cf671-3c8f-4f4d-b168-9f0cae4c6bc1" name="Default" comment="" />
     <ignored path="ferko.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
