@@ -1,5 +1,4 @@
 module:
-  backup_migrate: 0
   basic_auth: 0
   block: 0
   breakpoint: 0
