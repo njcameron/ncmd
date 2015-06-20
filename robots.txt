@@ -15,6 +15,7 @@
 
 User-agent: *
 Crawl-delay: 10
+Disallow: *
 # JS/CSS
 Allow: /core/*.css$
 Allow: /core/*.js$
