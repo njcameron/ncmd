@@ -5,12 +5,14 @@ dependencies:
   config:
     - field.field.node.blog_post.body
     - field.field.node.blog_post.field_category
+    - field.field.node.blog_post.field_extra_files
     - field.field.node.blog_post.field_filename
     - field.field.node.blog_post.field_picture
     - field.field.node.blog_post.field_standfirst
     - field.field.node.blog_post.field_teaser
     - node.type.blog_post
   module:
+    - file
     - image
     - path
     - text
@@ -40,6 +42,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+  field_extra_files:
+    weight: 30
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
   field_filename:
     weight: 28
     settings:

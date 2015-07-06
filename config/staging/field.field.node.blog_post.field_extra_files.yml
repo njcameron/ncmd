@@ -1,0 +1,27 @@
+uuid: ee87793d-50aa-4ecc-b608-8c405482e6ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_extra_files
+    - node.type.blog_post
+  module:
+    - file
+id: node.blog_post.field_extra_files
+field_name: field_extra_files
+entity_type: node
+bundle: blog_post
+label: 'Extra files'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: extra-files
+  file_extensions: 'txt png jpg zip pdf mp4'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: file

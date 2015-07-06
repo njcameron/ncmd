@@ -1,0 +1,23 @@
+uuid: 580552b6-53fc-45d3-ad5b-911baf8d742a
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_extra_files
+field_name: field_extra_files
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+  target_bundle: null
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
