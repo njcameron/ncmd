@@ -1,4 +1,4 @@
-uuid: 06349fcb-15de-4b99-8400-b1e5a0bfcccf
+uuid: b534bdec-3c82-4aef-9c07-7e01798f092c
 langcode: en
 status: true
 dependencies:
@@ -191,9 +191,9 @@ display:
       style:
         type: serializer
         options:
+          grouping: {  }
           uses_fields: false
-          formats:
-            hal_json: hal_json
+          formats: {  }
       row:
         type: data_entity
         options: {  }
